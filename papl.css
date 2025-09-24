@@ -70,8 +70,8 @@ section {
     box-sizing: border-box;
     position: relative;
     background-color: rgba(255, 255, 255, 0);
-    margin-left: 25px;
-    transform: translateY(170px);
+    margin-left: 40px;
+    transform: translateY(170px) translateX(-25px);
     cursor: pointer;
 }
 .inf1, .inf2, .inf3, .inf4 {
@@ -208,7 +208,8 @@ section {
         top: 15vh;
     }
     .caja {
-        transform: translateY(225px);
+    margin-left: 40px;
+    transform: translateY(220px) translateX(-25px);
     }
     .inf1, .inf2, .inf3, .inf4 {
         transform: translateY(-25px);
