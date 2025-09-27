@@ -129,10 +129,10 @@ section {
 }
 @media (max-width: 778px){
     body {
-        background-size: cover;
+        background-color: #000000;
     }
     .tittle {
-        position: static;
+        position: relative;
         font-size: 40px;
         transform: translateY(-100px);
     }
@@ -158,8 +158,15 @@ section {
     .inf1, .inf2, .inf3, .inf4 {
         font-size: 20px;
         padding-top: 80px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
+    .creditos {
+    animation: creditos 15s linear infinite;
+    color: #94A3B8;
+    position: relative;
+    bottom: -20px;
+    left: -525px;
+}
 }
 @media (display-mode: fullscreen) {
     .tittle {

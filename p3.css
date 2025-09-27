@@ -133,11 +133,10 @@ tr:hover {
 
     .t1, .t2, .t3, .t4 {
         position: static;
-        width: 100%;
+        width: 410px;
         margin: 15px auto;
         height: auto;
     }
-
     .img1, .img2 {
         width: 80%;
         max-width: 200px;

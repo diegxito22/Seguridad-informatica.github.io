@@ -90,8 +90,8 @@ li {
         align-items: center;
     }
     header {
-        padding-right: 30px;
-        font-size: 24px;
+        margin-right:-50px;
+        font-size:14px;
         text-align: center;
     }
     .card {
