@@ -316,3 +316,38 @@ th {
     font-size: larger;
     background: rgb(13, 18, 43);
 }
+@media (max-width: 768px) {
+    section {
+        min-height: auto;
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9, .a10, .a11, .a12, .a13, .f1 {
+        position: static;
+        width: 100%;
+        margin: 10px auto;
+        height: auto;
+        font-size: medium;
+    }
+
+    .p1, .p2 img, .p3 img {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    table {
+        width: 100% !important;
+        font-size: small;
+    }
+
+    header {
+        font-size: medium;
+        letter-spacing: 1px;
+        padding: 10px;
+    }
+}

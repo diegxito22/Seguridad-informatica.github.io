@@ -16,19 +16,20 @@ header {
     src: url(letra/Memsmark!\ Demo.ttf);
 }
 @font-face {
-    font-family: 'letra2';
+    font-family:'letra2';
     src: url(letra/monof55.ttf);
 }
 
 html{
-    font-family:letra2;
     background-image: url(imgs/image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 150vh;
 }
-
+body {
+    font-family:'letra2';
+}
 article {
     background-color: rgb(45, 49, 71);
     box-shadow: black 10px 5px 15px;
@@ -121,4 +122,44 @@ th {
 tr:hover {
     background-color: #000000;
     transition: 0.3s;
+}
+@media (max-width: 768px) {
+    article {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: medium;
+    }
+
+    .t1, .t2, .t3, .t4 {
+        position: static;
+        width: 100%;
+        margin: 15px auto;
+        height: auto;
+    }
+
+    .img1, .img2 {
+        width: 80%;
+        max-width: 200px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+    header {
+        font-size: medium;
+        letter-spacing: 1px;
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+        font-size: small;
+    }
+
+    h2 {
+        font-size: medium;
+        height: auto;
+        padding: 8px;
+    }
 }

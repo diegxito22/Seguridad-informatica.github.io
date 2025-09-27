@@ -3,46 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herramientas de Ciberseguridad</title>
+    <title>Herramientas de Análisis y Monitoreo en Seguridad Informática</title>
     <link rel="stylesheet" href="p1.css">
 </head>
 <body>
     <header>
-        <h1>Herramientas de Ciberseguridad: Análisis y Monitoreo</h1>
+        <h1>Herramientas de Análisis y Monitoreo en Seguridad Informática</h1>
     </header>
+
     <main>
         <section class="card">
-            <h2>1. Monitoreo y Análisis de Procesos</h2>
-            <p>El monitoreo constante es crucial para detectar actividades sospechosas, archivos maliciosos y accesos no autorizados.</p>
-            <h3>Process Explorer</h3>
+            <h2>Monitoreo</h2>
             <ul>
-                <li><strong>Función:</strong> Herramienta avanzada para visualizar todos los procesos en ejecución.</li>
-                <li><strong>Características:</strong> Muestra DLLs cargadas, archivos abiertos y verifica firmas digitales.</li>
-                <li><strong>Integración:</strong> Se integra con VirusTotal para análisis rápidos.</li>
+                <li><strong>Qué es:</strong> Es la vigilancia constante del sistema informático para detectar actividades sospechosas, archivos maliciosos, accesos no autorizados o comportamientos anómalos.</li>
+                <li><strong>Process Explorer:</strong> Monitoreo avanzado de procesos. Aunque no se menciona explícitamente en el contenido original, Process Explorer es una herramienta fundamental en seguridad informática que complementa a AV-Test y VirusTotal:</li>
             </ul>
+            <ol>
+                <li>Desarrollada por Microsoft, permite visualizar todos los procesos en ejecución</li>
+                <li>Qué es: Es el proceso de seleccionar un software de protección adecuado para las necesidades del usuario o de una organización. AV-Test: Evaluación de Antivirus</li>
+                <li>Identifica qué programas tienen archivos o directorios abiertos</li>
+                <li>Muestra información detallada sobre DLLs cargadas</li>
+                <li>Permite verificar la firma digital de los procesos</li>
+                <li>Integración con VirusTotal para análisis de procesos sospechosos</li>
+            </ol>
+            <img width="200px" src="imgs/img1.jpg" alt="Representación de monitoreo de procesos">
         </section>
-        
+
         <section class="card">
-            <h2>2. Detección de Archivos y URLs</h2>
-            <p>La identificación de archivos y enlaces maliciosos es vital para la protección del sistema.</p>
-            <h3>VirusTotal</h3>
+            <h2>Elección de Antivirus</h2>
             <ul>
-                <li><strong>Función:</strong> Plataforma gratuita para analizar archivos y URLs.</li>
-                <li><strong>Proceso:</strong> Escanea el contenido con más de 70 motores antivirus simultáneamente.</li>
-                <li><strong>Uso:</strong> Ideal para verificar la seguridad de descargas y enlaces sospechosos antes de abrirlos.</li>
+                <li><strong>¿Qué es AV-Test?</strong> Es una organización independiente con sede en Alemania que se especializa en la evaluación de productos de seguridad informática. Realiza pruebas rigurosas y periódicas a soluciones antivirus para los sistemas operativos Windows, macOS y Android. Su objetivo es proporcionar datos fiables y transparentes para que los usuarios puedan elegir el software de protección más adecuado.</li>
+                <li><strong>Criterios de Evaluación:</strong> AV-Test califica los productos basándose en un sistema de puntuación que considera tres categorías principales, otorgando hasta 6 puntos en cada una para un total máximo de 18 puntos.
+                    <ul>
+                        <li><strong>Rendimiento:</strong> Mide el impacto que el software antivirus tiene en el sistema operativo. Se evalúa cómo afecta la velocidad al navegar por la web, descargar archivos, instalar aplicaciones y ejecutar programas. Un puntaje alto indica un impacto mínimo.</li>
+                        <li><strong>Usabilidad:</strong> Se refiere a la facilidad de uso y la tasa de falsos positivos. Un falso positivo ocurre cuando el antivirus identifica incorrectamente un archivo seguro como malicioso. Un puntaje alto en esta categoría significa que el software no molesta al usuario con falsas alarmas.</li>
+                    </ul>
+                </li>
             </ul>
+            <img width="200px" src="imgs/img2.jpg" alt="Logo de AV-Test">
         </section>
-        
+
         <section class="card">
-            <h2>3. Evaluación de Software de Protección</h2>
-            <p>Elegir el software de seguridad adecuado es un paso clave para mantener un sistema seguro.</p>
-            <h3>AV-Test</h3>
+            <h2>Detección de Procesos Sospechosos</h2>
             <ul>
-                <li><strong>Función:</strong> Organización independiente que evalúa antivirus.</li>
-                <li><strong>Criterios:</strong> Evalúa la <strong>Protección</strong> (detección de malware), el <strong>Rendimiento</strong> (impacto en el sistema) y la <strong>Usabilidad</strong> (falsos positivos).</li>
+                <li><strong>Qué es:</strong> Es la identificación de programas o actividades en ejecución que muestran un comportamiento inusual o potencialmente malicioso (por ejemplo: consumo excesivo de memoria, intentos de modificar archivos del sistema, conexiones no autorizadas a internet). VirusTotal: Análisis de Archivos y URLs</li>
+                <li><strong>¿Qué es VirusTotal?</strong> Plataforma gratuita que permite analizar archivos, URLs, IPs y dominios utilizando múltiples motores antivirus y herramientas de análisis avanzadas.</li>
             </ul>
+            <ol>
+                <li><strong>Funcionamiento:</strong> El usuario sube un archivo o introduce una URL sospechosa.</li>
+                <li><strong>Análisis:</strong> VirusTotal analiza el contenido con más de 70 motores antivirus.</li>
+                <li><strong>Resultados:</strong> Se muestran resultados detallados por cada motor de análisis.</li>
+                <li><strong>Aplicaciones prácticas:</strong> Verificar la seguridad de archivos descargados. Analizar enlaces sospechosos antes de abrirlos. Comprobar la reputación de dominios e IPs.</li>
+            </ol>
+            <img width="200px" src="imgs/img3.jpg" alt="Representación de VirusTotal">
         </section>
     </main>
-
 </body>
 </html>

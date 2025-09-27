@@ -127,39 +127,29 @@ section {
     bottom: -190px;
     left: -525px;
 }
-@media (max-width: 1024px) {
-    .tittle {
-        font-size: 60px;
-        transform: translateY(-100px);
-    }
-    .caja {
-        transform: translateY(120px);
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .bkgd, .bkgd1, .bkgd2, .bkgd3 {
-        width: 250px;
-        height: 250px;
-    }
-}
-@media (max-width: 768px) {
+@media (max-width: 768px){
     body {
-        background-size: contain;
+        background-size: cover;
     }
     .tittle {
+        position: static;
         font-size: 40px;
-        transform: translateY(-50px);
+        transform: translateY(-90px);
     }
     .welcome {
         top: 50px;
         width: 80%;
     }
-    section {
-        flex-direction: column;
+    section{
+
+        flex-direction:column;
+        gap: 20px;
+
     }
     .caja {
-        transform: translateY(20px);
-        margin: 10px auto;
+    margin-left: 0px;
+    transform: translateY(150px) translateX(0px);
+    display:block; 
     }
     .bkgd, .bkgd1, .bkgd2, .bkgd3 {
         width: 200px;
@@ -169,34 +159,6 @@ section {
         font-size: 20px;
         padding-top: 80px;
         padding-bottom: 80px;
-    }
-}
-@media (max-width: 768px) {
-    .tittle {
-        font-size: 30px;
-        transform: translateY(-30px);
-    }
-    .welcome {
-        font-size: 20px;
-        width: 90%;
-        top: 30px;
-    }
-    .caja {
-        transform: translateY(10px);
-    }
-    .bkgd, .bkgd1, .bkgd2, .bkgd3 {
-        width: 150px;
-        height: 150px;
-    }
-    .inf1, .inf2, .inf3, .inf4 {
-        font-size: 16px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .creditos {
-        font-size: 14px;
-        bottom: -100px;
-        left: -200px;
     }
 }
 @media (display-mode: fullscreen) {
