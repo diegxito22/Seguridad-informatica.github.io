@@ -127,17 +127,17 @@ section {
     bottom: -190px;
     left: -525px;
 }
-@media (max-width: 768px){
+@media (max-width: 778px){
     body {
         background-size: cover;
     }
     .tittle {
         position: static;
         font-size: 40px;
-        transform: translateY(-90px);
+        transform: translateY(-100px);
     }
     .welcome {
-        top: 50px;
+        top: 100px;
         width: 80%;
     }
     section{
@@ -148,7 +148,7 @@ section {
     }
     .caja {
     margin-left: 0px;
-    transform: translateY(150px) translateX(0px);
+    transform:translateX(0px);
     display:block; 
     }
     .bkgd, .bkgd1, .bkgd2, .bkgd3 {

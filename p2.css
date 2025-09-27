@@ -316,7 +316,7 @@ th {
     font-size: larger;
     background: rgb(13, 18, 43);
 }
-@media (max-width: 768px) {
+@media (max-width: 778px) {
 
     section {
         width: 95%;
