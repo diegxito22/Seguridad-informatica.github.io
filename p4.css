@@ -36,7 +36,7 @@ body {
  font-family: 'la';
  background-image: url(https://t4.ftcdn.net/jpg/00/23/73/73/360_F_23737384_YeoN9qfTKVRm0zUPBzP7ElraNMtykHP9.jpg);
  background-size: cover;
- background-attachment: scroll;
+ background-attachment:scroll;
  background-repeat: no-repeat;
  background-position: left center;
  animation: fondoDeslizante 25s linear infinite;
