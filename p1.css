@@ -84,9 +84,7 @@ ul {
 li {
     line-height: 1.6;
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px)  {
+@media screen and (max-width: 758px) {
     main {
         flex-direction: column;
         align-items: center;

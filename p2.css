@@ -316,9 +316,7 @@ th {
     font-size: larger;
     background: rgb(13, 18, 43);
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) {
+@media screen and (max-width: 758px) {
 
     section {
         width: 95%;

@@ -127,9 +127,7 @@ tr:hover {
     background-color: #000000;
     transition: 0.3s;
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) {
+@media screen and (max-width: 758px) {
     article {
         width: 90%;
         margin: 10px auto;
