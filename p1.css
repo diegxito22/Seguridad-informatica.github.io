@@ -30,6 +30,17 @@ header {
     letter-spacing: 5px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
+nav{
+
+    background-color: black;
+
+    text-align: center;
+
+    position:relative;
+
+    top:-25px;
+
+}
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

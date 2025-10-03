@@ -1,10 +1,41 @@
+@font-face {
+    font-family: 'letra1';
+    src: url(letra/Memsmark!\ Demo.ttf);
+}
+
+@font-face {
+    font-family: 'letra2';
+    src: url(letra/monof55.ttf);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(7, 2, 54) transparent;
+    background-image: url(imgs/image.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: 'letra2';
+    color: white;
+}
+
 header {
-    position:relative;
-    left:0;
-    right:0;
-    margin-inline: auto;
+    position: relative;
+    margin: 20px auto;
     background-color: rgb(4, 4, 66);
-    padding: 5px;
+    padding: 10px 20px;
     text-align: center;
     font-size: larger;
     text-transform: uppercase;
@@ -16,84 +47,81 @@ header {
     width: 390px;
 }
 
-@font-face {
-    font-family: 'letra1';
-    src: url(letra/Memsmark!\ Demo.ttf);
-}
-@font-face {
-    font-family:'letra2';
-    src: url(letra/monof55.ttf);
+nav {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    top: -5px;
 }
 
-html{
-    background-image: url(imgs/image.png);
-    background-repeat:no-repeat;
-    background-position:top center;
-    background-size:cover;
-    background-attachment: fixed;
-    min-height: 150vh;
-}
-body {
-    font-family:'letra2';
-}
 article {
     background-color: rgb(45, 49, 71);
     box-shadow: black 10px 5px 15px;
-    padding: 5px;
+    padding: 15px;
     text-align: center;
     font-family: sans-serif;
     letter-spacing: 2px;
     border-radius: 10px;
-    color: rgb(252, 252, 252);
     width: 570px;
+    margin: 20px;
+
 }
 
-.t1 {
-    top: 35%;
-    position: absolute;
-    left: 5%;
-    box-sizing: border-box;
+.t1,
+.t2,
+.t3,
+.t4 {
+    background-color: rgb(45, 49, 71);
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    min-width: 220px;
+}
+
+.t1 { 
+    height: 320px; 
+
+    float: right;
+
+}
+.t2 { 
+    height: 360px; 
+
+    float: left;
+
+}
+.t3 { 
+    height: 200px; 
+
+    float: right;
+
+}
+.t4 { 
+    height: 500px; 
+
+    float: left;
+
+}
+
+.t1:hover,
+.t2:hover,
+.t3:hover,
+.t4:hover {
+    background-color: #0b2341;
+    transform: scale(1.05);
     z-index: 10;
 }
 
-.img1 {
-    width: 100px;
+.img1,
+.img2 {
+    width: 100%;
+    max-width: 180px;
     height: auto;
     border-radius: 10px;
-}
-
-.t2 {
-    top: 35%;
-    position: absolute;
-    left: 50%;
-    z-index: 11;
-}
-
-.img2{
-    width: 100px;
-    height: auto;
-}
-
-.t3 {
-    margin-top: 35%;
-    position: absolute;
-    left: 50%;
-    top: 25%;
-}
-
-.t4 {
-    margin-top: 30%;
-    height: 440px;
-    position: absolute;
-    left: 5%;
-    top: 25%;
-}
-
-.t1:hover, .t2:hover, .t3:hover, .t4:hover {
-    background-color: #0b2341;
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
-    z-index: 10;
+    display: block;
+    margin: 0 auto 10px auto;
 }
 
 h2 {
@@ -101,16 +129,15 @@ h2 {
     border-radius: 10px;
     text-align: center;
     padding: 5px;
-    height: 40px;
-    margin-top: 0px;
+    margin: 0 0 10px 0;
 }
 
 table {
     margin-top: 20px;
     border: solid #444;
     border-collapse: collapse;
-    overflow: hidden;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    width: 100%;
 }
 
 th,
@@ -129,21 +156,23 @@ tr:hover {
     background-color: #000000;
     transition: 0.3s;
 }
-@media screen and (max-width: 758px) {
-    article {
-        width: 90%;
-        margin: 10px auto;
-        padding: 10px;
-        font-size: medium;
+
+@media screen and (max-width: 780px) {
+    .contenedor {
+        flex-wrap: wrap;
     }
 
-    .t1, .t2, .t3, .t4 {
-        position: static;
-        width: 410px;
-        margin: 15px auto;
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+        width: 100%;
+        max-width: 100%;
         height: auto;
     }
-    .img1, .img2 {
+
+    .img1,
+    .img2 {
         width: 80%;
         max-width: 200px;
         height: auto;

@@ -127,7 +127,7 @@ section {
     bottom: -190px;
     left: -525px;
 }
-@media (max-width: 778px){
+@media screen and (max-width: 780px) {
     body {
         background-color: #000000;
     }
