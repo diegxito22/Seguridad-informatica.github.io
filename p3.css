@@ -170,9 +170,15 @@ tr:hover {
     .t2,
     .t3,
     .t4 {
-        width: 100%;
+        box-sizing: border-box;
         max-width: 100%;
         height: auto;
+        float: none;
+    }
+    .t4{
+
+        transform: scale(0.9) translateX(-30px);
+
     }
 
     .img1,
@@ -187,7 +193,7 @@ tr:hover {
     header {
         font-size: medium;
         letter-spacing: 1px;
-        padding: 10px;
+
         text-align: center;
     }
 
