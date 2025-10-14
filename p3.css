@@ -166,53 +166,35 @@ tr:hover {
 @media screen and (max-width: 780px) {
     html{
 
-        position: relative;
+        overflow-x: hidden;
 
+    }
+    header {
+        transform:translateX(-10px);
+        width: 90%;
+        font-size:smaller;
+        margin: 10px auto;
+    }
+    article {
+        width: 90%;
+        margin: 10px auto;
     }
     .t1,
     .t2,
     .t3,
     .t4 {
-        width: 105%;
-        transform: scale(0.9);
-        margin-left: -10px;
-        box-sizing: border-box;
-        height: auto;
+        transform: scale(0.8) translateX(-40px);
         float: none;
+        width: 450px;
+        margin: 10px auto;
+        height: fit-content;
     }
     .t1:hover,
     .t2:hover,
     .t3:hover,
     .t4:hover {
     background-color: #0b2341;
-    transform: scale(1);
+    transform: scale(0.9) translateX(-40px);
     z-index: 10;
 }
-    .img1,
-    .img2 {
-        width: 80%;
-        max-width: 200px;
-        height: auto;
-        display: block;
-        margin: 10px auto;
-    }
-
-    header {
-        font-size: medium;
-        letter-spacing: 1px;
-        text-align: center;
-        padding-left:-100px;
-    }
-
-    table {        
-        font-size: small; 
-        table-layout: fixed;
-    }
-
-    h2 {
-        font-size: medium;
-        height: auto;
-        padding: 8px;
-        text-align: center;
-    }
 }
