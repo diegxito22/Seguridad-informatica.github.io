@@ -155,12 +155,12 @@ section {
         width: 80%;
     }
     section{
-    transform: scale(0.8) translateX(-20px);
+    transform: scale(0.7) translateX(-40px);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 90px;
     }
     .caja {
     margin-left: 0px;
