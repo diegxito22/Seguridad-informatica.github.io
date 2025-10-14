@@ -160,7 +160,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
     align-items: center;
     justify-content: center;
-    gap: 70px;
+    gap: 150px;
     }
     .caja {
     margin-left: 0px;

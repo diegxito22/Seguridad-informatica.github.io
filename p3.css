@@ -183,11 +183,12 @@ tr:hover {
     .t2,
     .t3,
     .t4 {
-        transform: scale(0.8) translateX(-60px);
+        transform: scale(0.7) translateX(-90px);
         float: none;
         width: 450px;
         margin: 10px auto;
         height: fit-content;
+        font-size: smaller;
     }
     .t1:hover,
     .t2:hover,

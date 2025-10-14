@@ -1,7 +1,8 @@
-*, *::before, *::after {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
 @font-face {
   font-family: 'letra1';
   src: url(letra/Memsmark!\ Demo.ttf);
@@ -112,9 +113,22 @@ th {
   grid-column: span 2;
 }
 @media (max-width: 768px) {
-  section {
-    display: block;
-  }
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  } 
+section {
+  transform: scale(0.9);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 98%;
+  margin: auto;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  display:grid;
+  gap: 1.5rem;
+  padding: 2rem;
+}
   .a7{
     overflow-x: auto;
 
