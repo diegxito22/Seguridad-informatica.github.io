@@ -1,3 +1,15 @@
+@keyframes titulo{
+
+    0% , 100% {
+        color: #4d92ad;
+        text-shadow: 0px 0px 5px #000000;
+    }
+    50% {
+        color: #38BDF8;
+        text-shadow: 0px 0px 20px #22D3EE;
+    }
+
+}
 @keyframes creditos {
     to {
         left: 100%;
@@ -31,7 +43,8 @@ header {
     background-color: #06152cbb;
 }
 section {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     align-items: center;
     justify-content: center;
 }
@@ -46,6 +59,7 @@ section {
     text-align: center;
     font-size: 75px;
     font-weight: bold;
+    animation: titulo 3s infinite;
 }
 .welcome {
     font-family: la2;
@@ -141,10 +155,11 @@ section {
         width: 80%;
     }
     section{
-
-        flex-direction:column;
-        gap: 20px;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     }
     .caja {
     margin-left: 0px;
