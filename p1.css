@@ -32,16 +32,18 @@ header {
     letter-spacing: 5px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
-nav{
-
-    background-color: black;
-
-    text-align: center;
-
-    position:relative;
-
-    top:-25px;
-
+nav {
+  background-color: black;
+  text-align: center;
+  position: relative;
+  top:10px;
+  width:auto;
+  height:50px;
+}
+nav img {
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 main {
     display: grid;
